@@ -1,0 +1,144 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.Gmail{
+    margin-right: 10px;
+    text-align: right;
+    font-size: 14px;
+    white-space: nowrap;
+    word-spacing: 2em;
+}
+
+.box{
+    border: 0.1px solid #c5c5c5;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+    height: 30px;
+    width: 500px;
+    box-shadow: 1px 1px 5px #888;
+    border-radius: 40px;
+}
+.input-box{
+    margin-left: 15px;
+    width: 420px;
+    height: 25px;
+    outline: none;
+    background: transparent;
+    border: none;
+    font-size: 15px;
+
+}
+.loupe{
+    float: left;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.voix{
+    float: right;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.google-logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.logo{
+    padding-bottom: 250px;
+}
+.bouton{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.bouton1{
+    margin: 150px 10px 0 0;
+    font-size: 15px;
+    padding: 8px 15px;
+    border: 1px solid #f2f2f2;
+    color: #5F6368;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f2f2f2;
+
+}
+.bouton2{
+    margin: 150px 10px 0 0;
+    font-size: 15px;
+    padding: 8px 15px;
+    border: 1px solid #f2f2f2;
+    color: #5F6368;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.bouton1:hover{border: 1px solid #F0C300;}
+.bouton2:hover{border: 1px solid #F0C300;}
+
+.footer{
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgb(242, 242, 242);
+    background-origin: padding-box;
+    border-top-color: rgb(228, 228, 228);
+    border-top-style: solid;
+    border-top-width: 1px;
+    bottom: 0px;
+    color: rgb(34, 34, 34);
+    display: block;
+    font-family: Arial, sans-serif;
+    font-size: 13.333px;
+    height: 150px;
+    left: 0px;
+    line-height: 40px;
+    right: 0px;
+    width: 100%;
+    position: absolute;
+}
+.petitebg2{
+    color: rgb(0,0,0,.54);
+    margin-right: 10px;
+    text-align: right;
+    font-size: 14px;
+    white-space: nowrap;
+}
+.petitebg3{
+    white-space: nowrap;
+    display: inline-block;
+    margin: 2px 300px 0 10px;
+    padding-left: 27px;
+    text-align: left;
+    font-size: 14px;
+}
+.pays{
+    color: rgb(0,0,0,.54);
+    padding-left: 27px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    height: 105px;
+    width: 100%;
+    line-height: 40px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
